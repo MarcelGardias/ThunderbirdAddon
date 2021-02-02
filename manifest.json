@@ -1,0 +1,28 @@
+{
+    "manifest_version":2,
+    "name": "Automated Response",
+    "description":"Uses a machine learning model that generates an automated response",
+    "version": "1.0",
+    "author":"Marcel Gardias",
+    "applications": {
+        "gecko": {
+            "id": "automated@response.com",
+            "strict_min_version": "78.0",
+            "strict_max_version": "78.*"
+        }
+    },
+    "permissions": [
+        "messagesRead",
+        "compose"
+      ],
+    "background":{
+        "scripts":[
+            "backgroud.js"
+        ]
+    },
+
+    "message_display_action": {
+    "default_popup":"response.html",
+    "default_title": "Automated response"
+    }
+}

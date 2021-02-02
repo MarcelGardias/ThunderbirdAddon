@@ -1,0 +1,31 @@
+.padding-info{
+    margin: 15px;
+}
+.options-header{
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.seperation{
+    width: 100%;
+    border: 1px solid black;
+}
+.options{
+    width: 100%;
+}
+.options-text{
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    background-color: rgb(0,0,0,0.05);
+}
+.paste-answer{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgb(0,0,0,0.2);
+    color: black;
+    border-radius: 3px;
+}
